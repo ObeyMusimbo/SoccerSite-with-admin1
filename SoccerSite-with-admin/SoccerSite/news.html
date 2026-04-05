@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News & Media — New Hope Stars FC</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/parallax.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/placeholders.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-placeholder" id="clubLogo"><i class="fas fa-shield-alt"></i></div>
+        <span class="club-name">New Hope Stars FC</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="teams.html" class="nav-link">Teams</a></li>
+        <li><a href="fixtures.html" class="nav-link">Fixtures & Results</a></li>
+        <li><a href="news.html" class="nav-link active">News & Media</a></li>
+        <li><a href="register.html" class="nav-link">Register</a></li>
+        <li><a href="shop.html" class="nav-link">Shop</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="background-image: url('images/news-hero.jpg');">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>News & <span>Media</span></h1>
+      <p>Match reports, articles, and photo galleries.</p>
+    </div>
+  </section>
+
+  <!-- NEWS ARTICLES -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Latest <span>Articles</span></h2>
+        <div class="title-bar"></div>
+      </div>
+
+      <div class="news-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="match-report">Match Reports</button>
+        <button class="filter-btn" data-filter="club-news">Club News</button>
+        <button class="filter-btn" data-filter="youth">Youth</button>
+      </div>
+
+      <div class="news-grid-full">
+        <article class="news-card-full" data-category="club-news">
+          <div class="news-image" style="background-image: url('images/news-1.jpg');"></div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-tag">Club News</span>
+              <span class="news-date"><i class="far fa-calendar"></i> March 28, 2026</span>
+            </div>
+            <h3>Pre-Season Training Begins Next Week</h3>
+            <p>All teams are expected at the training ground on Monday for the first session of the 2026/27 campaign. New players welcome — bring your boots and your ambition!</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card-full" data-category="match-report">
+          <div class="news-image" style="background-image: url('images/news-2.jpg');"></div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-tag">Match Report</span>
+              <span class="news-date"><i class="far fa-calendar"></i> March 22, 2026</span>
+            </div>
+            <h3>U15s Win Regional Cup Final — 3-2 Thriller!</h3>
+            <p>In a dramatic final, our Under-15s came from behind twice to claim the cup with a stoppage-time winner. A performance to remember for years to come.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card-full" data-category="club-news">
+          <div class="news-image" style="background-image: url('images/news-3.jpg');"></div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-tag">Club News</span>
+              <span class="news-date"><i class="far fa-calendar"></i> March 15, 2026</span>
+            </div>
+            <h3>New Kit Reveal Coming Friday</h3>
+            <p>The wait is nearly over! Our brand new home and away kits for the 2026/27 season will be unveiled this Friday. Stay tuned to our socials for the big reveal.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card-full" data-category="match-report">
+          <div class="news-image" style="background-image: url('images/news-4.jpg');"></div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-tag">Match Report</span>
+              <span class="news-date"><i class="far fa-calendar"></i> March 8, 2026</span>
+            </div>
+            <h3>Seniors Secure Convincing 4-0 Victory</h3>
+            <p>A dominant display from the Senior team saw them cruise to a comfortable victory against Metro Stars, with goals from four different scorers.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card-full" data-category="youth">
+          <div class="news-image" style="background-image: url('images/news-5.jpg');"></div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-tag">Youth</span>
+              <span class="news-date"><i class="far fa-calendar"></i> March 1, 2026</span>
+            </div>
+            <h3>Youth Development Day a Huge Success</h3>
+            <p>Over 100 young players attended our annual development day, with skills workshops, mini tournaments, and plenty of fun in the sunshine.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card-full" data-category="club-news">
+          <div class="news-image" style="background-image: url('images/news-6.jpg');"></div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-tag">Club News</span>
+              <span class="news-date"><i class="far fa-calendar"></i> Feb 22, 2026</span>
+            </div>
+            <h3>New Hope Stars FC Partners With Local School</h3>
+            <p>We're proud to announce a new partnership with Springfield Primary to deliver after-school football coaching to pupils in the community.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY PREVIEW -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Photo <span>Gallery</span></h2>
+        <div class="title-bar"></div>
+        <p class="section-subtitle">Capturing the moments that matter.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" style="background-image: url('images/gallery-1.jpg');"></div>
+        <div class="gallery-item" style="background-image: url('images/gallery-2.jpg');"></div>
+        <div class="gallery-item" style="background-image: url('images/gallery-3.jpg');"></div>
+        <div class="gallery-item" style="background-image: url('images/gallery-4.jpg');"></div>
+        <div class="gallery-item" style="background-image: url('images/gallery-5.jpg');"></div>
+        <div class="gallery-item" style="background-image: url('images/gallery-6.jpg');"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="footer-logo"><div class="logo-placeholder"><i class="fas fa-shield-alt"></i></div><span>New Hope Stars FC</span></div>
+          <p>Building champions and inspiring communities through the beautiful game since 2011.</p>
+          <div class="footer-socials"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-youtube"></i></a><a href="#"><i class="fab fa-tiktok"></i></a></div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="about.html">About Us</a></li><li><a href="teams.html">Teams</a></li><li><a href="fixtures.html">Fixtures</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Get Involved</h4><ul><li><a href="register.html">Player Registration</a></li><li><a href="shop.html">Club Shop</a></li><li><a href="sponsors.html">Become a Sponsor</a></li><li><a href="contact.html">Volunteer</a></li></ul></div>
+        <div class="footer-col"><h4>Contact Us</h4><ul class="footer-contact"><li><i class="fas fa-map-marker-alt"></i> 123 Academy Lane, Sportsville</li><li><i class="fas fa-phone"></i> +27 12 345 6789</li><li><i class="fas fa-envelope"></i> info@academyfc.co.za</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 New Hope Stars FC. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

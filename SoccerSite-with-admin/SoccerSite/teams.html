@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teams — New Hope Stars FC</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/parallax.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/placeholders.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-placeholder" id="clubLogo"><i class="fas fa-shield-alt"></i></div>
+        <span class="club-name">New Hope Stars FC</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="teams.html" class="nav-link active">Teams</a></li>
+        <li><a href="fixtures.html" class="nav-link">Fixtures & Results</a></li>
+        <li><a href="news.html" class="nav-link">News & Media</a></li>
+        <li><a href="register.html" class="nav-link">Register</a></li>
+        <li><a href="shop.html" class="nav-link">Shop</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="background-image: url('images/teams-hero.jpg');">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Our <span>Teams</span></h1>
+      <p>From grassroots to senior — find your squad.</p>
+    </div>
+  </section>
+
+  <!-- TEAMS FILTER -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Squad <span>Directory</span></h2>
+        <div class="title-bar"></div>
+      </div>
+
+      <div class="teams-filter">
+        <button class="filter-btn active" data-filter="all">All Teams</button>
+        <button class="filter-btn" data-filter="youth">Youth</button>
+        <button class="filter-btn" data-filter="junior">Junior</button>
+        <button class="filter-btn" data-filter="senior">Senior</button>
+      </div>
+
+      <div class="teams-grid">
+        <!-- U8s -->
+        <div class="team-card" data-category="youth">
+          <div class="team-card-image" style="background-image: url('images/team-u8.jpg');">
+            <div class="team-card-badge">U8s</div>
+          </div>
+          <div class="team-card-body">
+            <h3>Under 8s</h3>
+            <p class="team-coach"><i class="fas fa-user-tie"></i> Coach TBA</p>
+            <p>Introduction to football with focus on fun, coordination, and basic skills.</p>
+            <div class="team-card-meta">
+              <span><i class="fas fa-users"></i> 16 Players</span>
+              <span><i class="fas fa-calendar"></i> Sat 09:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- U10s -->
+        <div class="team-card" data-category="youth">
+          <div class="team-card-image" style="background-image: url('images/team-u10.jpg');">
+            <div class="team-card-badge">U10s</div>
+          </div>
+          <div class="team-card-body">
+            <h3>Under 10s</h3>
+            <p class="team-coach"><i class="fas fa-user-tie"></i> Coach TBA</p>
+            <p>Building on fundamentals with small-sided games and team play concepts.</p>
+            <div class="team-card-meta">
+              <span><i class="fas fa-users"></i> 18 Players</span>
+              <span><i class="fas fa-calendar"></i> Sat 09:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- U12s -->
+        <div class="team-card" data-category="youth">
+          <div class="team-card-image" style="background-image: url('images/team-u12.jpg');">
+            <div class="team-card-badge">U12s</div>
+          </div>
+          <div class="team-card-body">
+            <h3>Under 12s</h3>
+            <p class="team-coach"><i class="fas fa-user-tie"></i> Coach TBA</p>
+            <p>Transitioning to full-pitch football with tactical awareness.</p>
+            <div class="team-card-meta">
+              <span><i class="fas fa-users"></i> 20 Players</span>
+              <span><i class="fas fa-calendar"></i> Sat 10:00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- U14s -->
+        <div class="team-card" data-category="junior">
+          <div class="team-card-image" style="background-image: url('images/team-u14.jpg');">
+            <div class="team-card-badge">U14s</div>
+          </div>
+          <div class="team-card-body">
+            <h3>Under 14s</h3>
+            <p class="team-coach"><i class="fas fa-user-tie"></i> Coach TBA</p>
+            <p>Competitive league football with structured training sessions.</p>
+            <div class="team-card-meta">
+              <span><i class="fas fa-users"></i> 22 Players</span>
+              <span><i class="fas fa-calendar"></i> Wed & Sat</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- U16s -->
+        <div class="team-card" data-category="junior">
+          <div class="team-card-image" style="background-image: url('images/team-u16.jpg');">
+            <div class="team-card-badge">U16s</div>
+          </div>
+          <div class="team-card-body">
+            <h3>Under 16s</h3>
+            <p class="team-coach"><i class="fas fa-user-tie"></i> Coach TBA</p>
+            <p>Advanced tactical football preparing players for the senior pathway.</p>
+            <div class="team-card-meta">
+              <span><i class="fas fa-users"></i> 22 Players</span>
+              <span><i class="fas fa-calendar"></i> Tue & Sat</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- U18s -->
+        <div class="team-card" data-category="junior">
+          <div class="team-card-image" style="background-image: url('images/team-u18.jpg');">
+            <div class="team-card-badge">U18s</div>
+          </div>
+          <div class="team-card-body">
+            <h3>Under 18s</h3>
+            <p class="team-coach"><i class="fas fa-user-tie"></i> Coach TBA</p>
+            <p>Bridging the gap between youth and senior football at the highest level.</p>
+            <div class="team-card-meta">
+              <span><i class="fas fa-users"></i> 24 Players</span>
+              <span><i class="fas fa-calendar"></i> Mon, Wed & Sat</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seniors -->
+        <div class="team-card" data-category="senior">
+          <div class="team-card-image" style="background-image: url('images/team-senior.jpg');">
+            <div class="team-card-badge">Seniors</div>
+          </div>
+          <div class="team-card-body">
+            <h3>Senior Team</h3>
+            <p class="team-coach"><i class="fas fa-user-tie"></i> Coach TBA</p>
+            <p>Our flagship squad competing at the top level of the local league structure.</p>
+            <div class="team-card-meta">
+              <span><i class="fas fa-users"></i> 26 Players</span>
+              <span><i class="fas fa-calendar"></i> Tue, Thu & Sat</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reserves -->
+        <div class="team-card" data-category="senior">
+          <div class="team-card-image" style="background-image: url('images/team-reserves.jpg');">
+            <div class="team-card-badge">Reserves</div>
+          </div>
+          <div class="team-card-body">
+            <h3>Reserve Team</h3>
+            <p class="team-coach"><i class="fas fa-user-tie"></i> Coach TBA</p>
+            <p>Providing competitive match-day experience for development and depth players.</p>
+            <div class="team-card-meta">
+              <span><i class="fas fa-users"></i> 22 Players</span>
+              <span><i class="fas fa-calendar"></i> Wed & Sat</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="footer-logo">
+            <div class="logo-placeholder"><i class="fas fa-shield-alt"></i></div>
+            <span>New Hope Stars FC</span>
+          </div>
+          <p>Building champions and inspiring communities through the beautiful game since 2011.</p>
+          <div class="footer-socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="fixtures.html">Fixtures</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="register.html">Player Registration</a></li>
+            <li><a href="shop.html">Club Shop</a></li>
+            <li><a href="sponsors.html">Become a Sponsor</a></li>
+            <li><a href="contact.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Academy Lane, Sportsville</li>
+            <li><i class="fas fa-phone"></i> +27 12 345 6789</li>
+            <li><i class="fas fa-envelope"></i> info@academyfc.co.za</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 New Hope Stars FC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

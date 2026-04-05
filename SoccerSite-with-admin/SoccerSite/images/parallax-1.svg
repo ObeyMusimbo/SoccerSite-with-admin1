@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="800" viewBox="0 0 1920 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#011d6e"/>
+      <stop offset="100%" style="stop-color:#0230ad"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="800" fill="url(#bg)"/>
+  <circle cx="960" cy="400" r="200" fill="none" stroke="#faef16" stroke-width="2" opacity="0.08"/>
+  <circle cx="960" cy="400" r="300" fill="none" stroke="#faef16" stroke-width="1" opacity="0.05"/>
+  <text x="960" y="410" font-family="Arial,sans-serif" font-size="24" fill="rgba(255,255,255,0.15)" text-anchor="middle">PARALLAX BACKGROUND</text>
+</svg>

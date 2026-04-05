@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fixtures & Results — New Hope Stars FC</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/parallax.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/placeholders.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-placeholder" id="clubLogo"><i class="fas fa-shield-alt"></i></div>
+        <span class="club-name">New Hope Stars FC</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="teams.html" class="nav-link">Teams</a></li>
+        <li><a href="fixtures.html" class="nav-link active">Fixtures & Results</a></li>
+        <li><a href="news.html" class="nav-link">News & Media</a></li>
+        <li><a href="register.html" class="nav-link">Register</a></li>
+        <li><a href="shop.html" class="nav-link">Shop</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="background-image: url('images/fixtures-hero.jpg');">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Fixtures & <span>Results</span></h1>
+      <p>Follow the action all season long.</p>
+    </div>
+  </section>
+
+  <!-- FIXTURES TABS -->
+  <section class="section">
+    <div class="container">
+      <div class="fixtures-tabs">
+        <button class="tab-btn active" data-tab="upcoming">Upcoming Fixtures</button>
+        <button class="tab-btn" data-tab="results">Recent Results</button>
+        <button class="tab-btn" data-tab="table">League Table</button>
+      </div>
+
+      <!-- Upcoming -->
+      <div class="tab-content active" id="tab-upcoming">
+        <div class="fixtures-list">
+          <div class="fixture-card">
+            <div class="fixture-date"><span class="day">05</span><span class="month">APR</span></div>
+            <div class="fixture-teams">
+              <span class="home">New Hope Stars FC</span><span class="vs">VS</span><span class="away">City United</span>
+            </div>
+            <div class="fixture-info">
+              <span><i class="fas fa-clock"></i> 15:00</span>
+              <span><i class="fas fa-map-marker-alt"></i> Home Ground</span>
+            </div>
+          </div>
+          <div class="fixture-card">
+            <div class="fixture-date"><span class="day">12</span><span class="month">APR</span></div>
+            <div class="fixture-teams">
+              <span class="home">Rovers FC</span><span class="vs">VS</span><span class="away">New Hope Stars FC</span>
+            </div>
+            <div class="fixture-info">
+              <span><i class="fas fa-clock"></i> 14:00</span>
+              <span><i class="fas fa-map-marker-alt"></i> Rovers Park</span>
+            </div>
+          </div>
+          <div class="fixture-card">
+            <div class="fixture-date"><span class="day">19</span><span class="month">APR</span></div>
+            <div class="fixture-teams">
+              <span class="home">New Hope Stars FC</span><span class="vs">VS</span><span class="away">Town Athletic</span>
+            </div>
+            <div class="fixture-info">
+              <span><i class="fas fa-clock"></i> 15:30</span>
+              <span><i class="fas fa-map-marker-alt"></i> Home Ground</span>
+            </div>
+          </div>
+          <div class="fixture-card">
+            <div class="fixture-date"><span class="day">26</span><span class="month">APR</span></div>
+            <div class="fixture-teams">
+              <span class="home">Valley FC</span><span class="vs">VS</span><span class="away">New Hope Stars FC</span>
+            </div>
+            <div class="fixture-info">
+              <span><i class="fas fa-clock"></i> 14:30</span>
+              <span><i class="fas fa-map-marker-alt"></i> Valley Stadium</span>
+            </div>
+          </div>
+          <div class="fixture-card">
+            <div class="fixture-date"><span class="day">03</span><span class="month">MAY</span></div>
+            <div class="fixture-teams">
+              <span class="home">New Hope Stars FC</span><span class="vs">VS</span><span class="away">Hilltop Rangers</span>
+            </div>
+            <div class="fixture-info">
+              <span><i class="fas fa-clock"></i> 15:00</span>
+              <span><i class="fas fa-map-marker-alt"></i> Home Ground</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="tab-content" id="tab-results">
+        <div class="fixtures-list">
+          <div class="fixture-card result">
+            <div class="fixture-date"><span class="day">29</span><span class="month">MAR</span></div>
+            <div class="fixture-teams">
+              <span class="home">New Hope Stars FC</span>
+              <span class="score"><span class="score-home">3</span> - <span class="score-away">1</span></span>
+              <span class="away">Parklands FC</span>
+            </div>
+            <div class="fixture-result-badge win">W</div>
+          </div>
+          <div class="fixture-card result">
+            <div class="fixture-date"><span class="day">22</span><span class="month">MAR</span></div>
+            <div class="fixture-teams">
+              <span class="home">Coastal FC</span>
+              <span class="score"><span class="score-home">2</span> - <span class="score-away">2</span></span>
+              <span class="away">New Hope Stars FC</span>
+            </div>
+            <div class="fixture-result-badge draw">D</div>
+          </div>
+          <div class="fixture-card result">
+            <div class="fixture-date"><span class="day">15</span><span class="month">MAR</span></div>
+            <div class="fixture-teams">
+              <span class="home">New Hope Stars FC</span>
+              <span class="score"><span class="score-home">4</span> - <span class="score-away">0</span></span>
+              <span class="away">Metro Stars</span>
+            </div>
+            <div class="fixture-result-badge win">W</div>
+          </div>
+          <div class="fixture-card result">
+            <div class="fixture-date"><span class="day">08</span><span class="month">MAR</span></div>
+            <div class="fixture-teams">
+              <span class="home">United City</span>
+              <span class="score"><span class="score-home">1</span> - <span class="score-away">0</span></span>
+              <span class="away">New Hope Stars FC</span>
+            </div>
+            <div class="fixture-result-badge loss">L</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- League Table -->
+      <div class="tab-content" id="tab-table">
+        <div class="league-table-wrapper">
+          <table class="league-table">
+            <thead>
+              <tr>
+                <th>Pos</th>
+                <th>Team</th>
+                <th>P</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>GD</th>
+                <th>Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td><td>City United</td><td>18</td><td>14</td><td>2</td><td>2</td><td>+28</td><td>44</td>
+              </tr>
+              <tr class="highlight">
+                <td>2</td><td><strong>New Hope Stars FC</strong></td><td>18</td><td>13</td><td>3</td><td>2</td><td>+24</td><td>42</td>
+              </tr>
+              <tr>
+                <td>3</td><td>Rovers FC</td><td>18</td><td>11</td><td>4</td><td>3</td><td>+16</td><td>37</td>
+              </tr>
+              <tr>
+                <td>4</td><td>Town Athletic</td><td>18</td><td>10</td><td>3</td><td>5</td><td>+10</td><td>33</td>
+              </tr>
+              <tr>
+                <td>5</td><td>Valley FC</td><td>18</td><td>8</td><td>5</td><td>5</td><td>+5</td><td>29</td>
+              </tr>
+              <tr>
+                <td>6</td><td>Hilltop Rangers</td><td>18</td><td>7</td><td>4</td><td>7</td><td>+1</td><td>25</td>
+              </tr>
+              <tr>
+                <td>7</td><td>Parklands FC</td><td>18</td><td>5</td><td>5</td><td>8</td><td>-8</td><td>20</td>
+              </tr>
+              <tr>
+                <td>8</td><td>Coastal FC</td><td>18</td><td>4</td><td>4</td><td>10</td><td>-14</td><td>16</td>
+              </tr>
+              <tr>
+                <td>9</td><td>Metro Stars</td><td>18</td><td>3</td><td>3</td><td>12</td><td>-22</td><td>12</td>
+              </tr>
+              <tr>
+                <td>10</td><td>United City</td><td>18</td><td>1</td><td>3</td><td>14</td><td>-30</td><td>6</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="footer-logo">
+            <div class="logo-placeholder"><i class="fas fa-shield-alt"></i></div>
+            <span>New Hope Stars FC</span>
+          </div>
+          <p>Building champions and inspiring communities through the beautiful game since 2011.</p>
+          <div class="footer-socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="about.html">About Us</a></li><li><a href="teams.html">Teams</a></li><li><a href="fixtures.html">Fixtures</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Get Involved</h4><ul><li><a href="register.html">Player Registration</a></li><li><a href="shop.html">Club Shop</a></li><li><a href="sponsors.html">Become a Sponsor</a></li><li><a href="contact.html">Volunteer</a></li></ul></div>
+        <div class="footer-col"><h4>Contact Us</h4><ul class="footer-contact"><li><i class="fas fa-map-marker-alt"></i> 123 Academy Lane, Sportsville</li><li><i class="fas fa-phone"></i> +27 12 345 6789</li><li><i class="fas fa-envelope"></i> info@academyfc.co.za</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 New Hope Stars FC. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

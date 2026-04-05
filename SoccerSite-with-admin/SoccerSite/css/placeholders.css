@@ -1,0 +1,59 @@
+/* ============================================
+   PLACEHOLDER IMAGES — temporary until real 
+   images are uploaded. Uses CSS gradients.
+   ============================================ */
+
+/* Generic placeholder for any missing background-image */
+.news-image,
+.team-card-image,
+.staff-photo,
+.shop-image,
+.gallery-item,
+.about-image img {
+  position: relative;
+}
+
+.news-image::before,
+.team-card-image::before,
+.staff-photo::before,
+.shop-image::before,
+.gallery-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0230ad 0%, #011d6e 60%, #0a4fd4 100%);
+  z-index: 0;
+}
+
+/* Icon overlay for placeholders */
+.news-image::after,
+.team-card-image::after,
+.staff-photo::after,
+.shop-image::after,
+.gallery-item::before {
+  content: '\f1e3';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: rgba(250, 239, 22, 0.2);
+  z-index: 1;
+}
+
+.staff-photo::after {
+  content: '\f007';
+}
+
+.shop-image::after {
+  content: '\f553';
+}
+
+/* When real images load, hide the placeholders */
+.news-image[style*="url('"]:not([style*="')"]),
+.team-card-image[style*="url('"]:not([style*="')"]) {
+  /* fallback maintained via background-color in main CSS */
+}

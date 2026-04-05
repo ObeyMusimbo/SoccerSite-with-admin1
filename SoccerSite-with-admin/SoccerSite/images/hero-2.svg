@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a4fd4"/>
+      <stop offset="60%" style="stop-color:#0230ad"/>
+      <stop offset="100%" style="stop-color:#011d6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <polygon points="200,800 960,300 1720,800" fill="none" stroke="#faef16" stroke-width="3" opacity="0.15"/>
+  <circle cx="960" cy="500" r="60" fill="#faef16" opacity="0.15"/>
+  <text x="960" y="520" font-family="Arial,sans-serif" font-size="60" fill="#faef16" text-anchor="middle" opacity="0.5">🏆</text>
+  <text x="960" y="620" font-family="Arial,sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle" opacity="0.5">SEASON 2025/26</text>
+  <text x="960" y="670" font-family="Arial,sans-serif" font-size="18" fill="rgba(255,255,255,0.35)" text-anchor="middle">Hero Slide 2</text>
+</svg>

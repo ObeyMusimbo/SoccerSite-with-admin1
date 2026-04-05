@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#011d6e"/>
+      <stop offset="40%" style="stop-color:#0230ad"/>
+      <stop offset="100%" style="stop-color:#0a4fd4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect x="300" y="350" width="1320" height="4" rx="2" fill="#faef16" opacity="0.12"/>
+  <rect x="400" y="700" width="1120" height="4" rx="2" fill="#faef16" opacity="0.08"/>
+  <circle cx="480" cy="540" r="100" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="3"/>
+  <circle cx="1440" cy="540" r="100" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="3"/>
+  <text x="960" y="520" font-family="Arial,sans-serif" font-size="60" fill="#faef16" text-anchor="middle" opacity="0.5">🥅</text>
+  <text x="960" y="620" font-family="Arial,sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle" opacity="0.5">DEVELOP · COMPETE · SUCCEED</text>
+  <text x="960" y="670" font-family="Arial,sans-serif" font-size="18" fill="rgba(255,255,255,0.35)" text-anchor="middle">Hero Slide 3</text>
+</svg>

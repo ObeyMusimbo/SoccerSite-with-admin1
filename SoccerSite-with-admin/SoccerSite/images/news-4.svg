@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0230ad"/>
+  <circle cx="400" cy="200" r="60" fill="none" stroke="#faef16" stroke-width="3" opacity="0.3"/>
+  <text x="400" y="220" font-family="Arial,sans-serif" font-size="50" fill="#faef16" text-anchor="middle" opacity="0.6">🤝</text>
+  <text x="400" y="310" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle" opacity="0.5">COMMUNITY EVENT</text>
+  <text x="400" y="345" font-family="Arial,sans-serif" font-size="14" fill="rgba(255,255,255,0.3)" text-anchor="middle">News Image 4</text>
+</svg>

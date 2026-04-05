@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register — New Hope Stars FC</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/parallax.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/placeholders.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-placeholder" id="clubLogo"><i class="fas fa-shield-alt"></i></div>
+        <span class="club-name">New Hope Stars FC</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="teams.html" class="nav-link">Teams</a></li>
+        <li><a href="fixtures.html" class="nav-link">Fixtures & Results</a></li>
+        <li><a href="news.html" class="nav-link">News & Media</a></li>
+        <li><a href="register.html" class="nav-link active">Register</a></li>
+        <li><a href="shop.html" class="nav-link">Shop</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="background-image: url('images/register-hero.jpg');">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Player <span>Registration</span></h1>
+      <p>Sign up and become part of the New Hope Stars FC family.</p>
+    </div>
+  </section>
+
+  <!-- REGISTRATION FORM -->
+  <section class="section">
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="form-intro">
+          <div class="section-header left-align">
+            <h2 class="section-title">Register <span>Today</span></h2>
+            <div class="title-bar"></div>
+          </div>
+          <p>Interested in joining New Hope Stars FC? Fill out the form below and a member of our team will be in touch with next steps. Registrations are open for all age groups.</p>
+          <div class="form-highlights">
+            <div class="form-highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Open to all skill levels</span>
+            </div>
+            <div class="form-highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Qualified FA-licensed coaches</span>
+            </div>
+            <div class="form-highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Training multiple times per week</span>
+            </div>
+            <div class="form-highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Competitive league fixtures</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="registration-form" id="registrationForm">
+          <div class="form-group">
+            <label for="playerName">Player Full Name *</label>
+            <input type="text" id="playerName" name="playerName" required placeholder="Enter player's full name" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="dob">Date of Birth *</label>
+              <input type="date" id="dob" name="dob" required />
+            </div>
+            <div class="form-group">
+              <label for="ageGroup">Preferred Age Group *</label>
+              <select id="ageGroup" name="ageGroup" required>
+                <option value="">Select age group</option>
+                <option value="u8">Under 8s</option>
+                <option value="u10">Under 10s</option>
+                <option value="u12">Under 12s</option>
+                <option value="u14">Under 14s</option>
+                <option value="u16">Under 16s</option>
+                <option value="u18">Under 18s</option>
+                <option value="senior">Senior</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="parentName">Parent/Guardian Name</label>
+            <input type="text" id="parentName" name="parentName" placeholder="Required for players under 18" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+27 XX XXX XXXX" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="position">Preferred Position</label>
+            <select id="position" name="position">
+              <option value="">Select position (optional)</option>
+              <option value="goalkeeper">Goalkeeper</option>
+              <option value="defender">Defender</option>
+              <option value="midfielder">Midfielder</option>
+              <option value="forward">Forward</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="experience">Previous Football Experience</label>
+            <textarea id="experience" name="experience" rows="3" placeholder="Tell us about any previous clubs or experience..."></textarea>
+          </div>
+          <div class="form-group">
+            <label for="medical">Medical Conditions / Allergies</label>
+            <textarea id="medical" name="medical" rows="2" placeholder="Any medical info we should know about..."></textarea>
+          </div>
+          <div class="form-group form-checkbox">
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for="consent">I confirm that the information provided is accurate and I consent to New Hope Stars FC storing this data for registration purposes. *</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Submit Registration</button>
+          <div class="form-message" id="formMessage"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="footer-logo"><div class="logo-placeholder"><i class="fas fa-shield-alt"></i></div><span>New Hope Stars FC</span></div>
+          <p>Building champions and inspiring communities through the beautiful game since 2011.</p>
+          <div class="footer-socials"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-youtube"></i></a><a href="#"><i class="fab fa-tiktok"></i></a></div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="about.html">About Us</a></li><li><a href="teams.html">Teams</a></li><li><a href="fixtures.html">Fixtures</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Get Involved</h4><ul><li><a href="register.html">Player Registration</a></li><li><a href="shop.html">Club Shop</a></li><li><a href="sponsors.html">Become a Sponsor</a></li><li><a href="contact.html">Volunteer</a></li></ul></div>
+        <div class="footer-col"><h4>Contact Us</h4><ul class="footer-contact"><li><i class="fas fa-map-marker-alt"></i> 123 Academy Lane, Sportsville</li><li><i class="fas fa-phone"></i> +27 12 345 6789</li><li><i class="fas fa-envelope"></i> info@academyfc.co.za</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 New Hope Stars FC. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+    <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  
+  <script src="js/firebase-config.js"></script>
+  <script src="js/firebase-forms.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
